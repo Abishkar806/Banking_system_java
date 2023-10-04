@@ -46,11 +46,11 @@ public class BankCard
         this.balanceAmount=balanceAmount;
     }
 
-    //To display
+
     protected void display(){
         //if client name is empty suitable message is display.
         if(this.clientName ==""){
-            System.out.println("The clientName is required!!");
+            System.out.println("The clientName must required!!");
         }
         else{
             System.out.println("Card ID: "+cardId);
